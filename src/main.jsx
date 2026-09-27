@@ -11,7 +11,7 @@ const LINKS = {
   linkedin: "https://www.linkedin.com/in/khuzaima-sohail-782020372",
   github: "https://github.com/Khuzaimasohail123",
   innoplanner: "https://github.com/Khuzaimasohail123/InnoPlanner-",
-  whatsapp: "https://wa.me/923430379143"
+  MessageCircle: "https://wa.me/923430379143"
 };
 
 const skills = [
@@ -301,8 +301,8 @@ function App() {
               <a className="secondary-btn" href={LINKS.github} target="_blank" rel="noreferrer">
                 <Github size={18} /> View GitHub
               </a>
-              <a className="secondary-btn" href={LINKS.whatsapp} target="_blank" rel="noreferrer">
-                <Whatsapp size={18} /> Chat on WhatsApp
+              <a className="secondary-btn" href={LINKS.MessageCircle} target="_blank" rel="noreferrer">
+                <MessageCircle size={18} /> Chat on MessageCircle
               </a>
             </div>
           </div>
@@ -316,7 +316,7 @@ function App() {
           <div className="footer-links">
             <a href={LINKS.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={17} /></a>
             <a href={LINKS.github} target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={17} /></a>
-            <a href={LINKS.whatsapp} target="_blank" rel="noreferrer" aria-label="WhatsApp"><Whatsapp size={17} /></a>
+            <a href={LINKS.MessageCircle} target="_blank" rel="noreferrer" aria-label="MessageCircle"><MessageCircle size={17} /></a>
           </div>
         </div>
       </footer>
